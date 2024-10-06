@@ -1,0 +1,183 @@
+
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  body {
+    background-color: rgb(18, 16, 16);
+    display: flex;
+    align-items: center;
+  }
+  #cake{
+    width: 200px;
+  }
+  .card {
+    width: 100%;
+    max-width: 700px;
+    background: #a56da5;
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px ;
+    text-align: center;
+   
+  }
+  .search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #cold{
+    position: relative;
+  }
+  #karn{
+    width: 100%;
+height: 200px;
+
+  }
+  .aim{
+    position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+padding: 20px;
+  }
+  .search input {
+    border: 0;
+    
+    background: white;
+    padding: 10px 25px;
+    height: 65px;
+    border-radius: 65px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 20px;
+    font-weight: 300;
+    
+  }
+  .search button {
+    border: 0;
+    border-radius: 50px;
+    background-color: white;
+    width: 70px;
+    height: 65px;
+    cursor: pointer;
+  }
+  .search buton img {
+    width: 16px;
+  }
+  .pics{
+    width: 300px;
+   
+  }
+  .weather h1{
+    font-size: 60px;
+    font-weight:500;
+  }
+  .weather h2{
+    font-size: 45px;
+    font-weight:400;
+    margin-top: -10px;
+  }
+  .details{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20px;
+    margin-top: 50px;
+}
+.col{
+    display:flex;
+    align-items: center;
+    text-align: left;
+    
+  }
+  .col img{
+    width: 70px;
+    margin-right:10px;
+  }
+  .humidity, .wind{
+    font-size:18px;
+    margin-top:-6px;
+
+  }
+  #rest{
+    max-width: 250px;
+    padding-bottom: 3px;
+    padding-right: 20px;
+
+
+  }
+  #sake{
+
+border:solid black 2px;
+background: white;
+padding: 15px 25px;
+height: 65px;
+border-radius: 65px;
+flex: 1;
+margin-right: 16px;
+font-size: 18px;
+font-weight: 400;
+
+  }
+  textarea{
+    background:  #C98EC4; 
+    border:0;
+border-radius:10px;
+font-size: 15px;
+resize: none; 
+color: #514f4f;
+outline:0;
+padding-top:20px;
+max-height: 100%;
+}
+textarea::-webkit-scrollbar {
+width: 10px; 
+}
+#red{
+margin-right: 25px;
+}
+#gad{
+position: fixed;
+padding-left: 30px;
+}
+
+@media (max-width: 600px) {
+.container {
+    margin: 20px auto;
+    padding: 15px;
+}
+.search-bar input[type="text"] {
+    width: 60%;
+}
+.search-bar button[type="button"] {
+    width: 30%;
+}
+.book-info h1 {
+    font-size: 20px;
+}
+.book-info p {
+    font-size: 16px;
+}
+}
+
+@media (max-width: 320px) {
+.container {
+    margin: 10px auto;
+    padding: 10px;
+}
+.search-bar input[type="text"] {
+    width: 50%;
+}
+.search-bar button[type="button"] {
+    width: 40%;
+}
+.book-info h1 {
+    font-size: 18px;
+}
+.book-info p {
+    font-size: 14px;
+}
+}
